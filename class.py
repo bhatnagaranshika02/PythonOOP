@@ -13,6 +13,9 @@ class Demo:
     def display(self):
         return self.l * self.b
 
+    def __str__ (self):
+        return "I am object"
+
 
 d= Demo(10,20)
 d1 = Demo(30,40)
@@ -28,4 +31,5 @@ print(Demo.__dict__)
 print(Demo.__name__)
 print(Demo.__base__)
 print(Demo.__doc__)
+print(d)
         
